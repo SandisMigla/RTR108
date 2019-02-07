@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/SandisMigla/RTR108
+    4  ls -l
+    5  ls -lt
+    6  cd RTR108
+    7  ls -lt
+    8  cat README.md
+    9  rm -rf RTR108
+   10  cd .
+   11  home
+   12  ./
+   13  ls -l
+   14  ls -la
+   15  nano README.md
+   16  ls -lt
+   17  nano README.md
+   18  git config --global user.email sandis.migla@gmail.com
+   19  git add .
+   20  git commit -m "02_07_2019__14_52_pirmais_commit"
+   21  git push origin master
+   22  git pull
+   23  cd ..
+   24  rm -rf RTR108
+   25  git clone https://github.com/SandisMigla/RTR108
+   26  cd RTR108
+   27  ls -lf
+   28  nano README.md
+   29  git config --global user.email sandis.migla@gmail.com
+   30  git add .
+   31  git commit -m "02_07_2019__14_52_pirmais_commit"
+   32  git push origin master
+   33  ld -lf
+   34  ls -lf
+   35  ls -la
+   36  nano
+   37  git-upload
+   38  ./git-upload
+   39  ls -la
+   40  chmod 740 git-upload 
+   41  ls -la
+   42  history
+   43  history > history_02_07_2019.txt
