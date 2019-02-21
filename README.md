@@ -11,8 +11,7 @@ Sāku apgūt git versiju kontroles sistēmu!
 
 Mapes kopēšana   cp -r P01 RTR108/P01/
 
-# Shell valoda
-
+## Shell valoda
 Ar TAB pogu var noskaidrot komandas iespējamos turpinājumus.
 Komandas apraksts   man
 
