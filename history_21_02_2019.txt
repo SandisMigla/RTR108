@@ -1,0 +1,40 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  root
+    4  uname
+    5  uname -a
+    6  echo $0
+    7  whoami
+    8  pwd
+    9  ls
+   10  sh
+   11  man pwd
+   12  ls -l
+   13  cd ..
+   14  ls -l
+   15  cd home/user
+   16  mkdir mape1
+   17  cd mape1/
+   18  ls
+   19  ls -l
+   20  ls -la
+   21  pwd
+   22  cd .
+   23  cd ..
+   24  nano
+   25  ls -l
+   26  mans_skripts.sh
+   27  ./mans_skripts.sh
+   28  echo $PATH
+   29  PATH=$PATH:~/
+   30  echo $PATH
+   31  mans_skripts.sh
+   32  chmod
+   33  ch
+   34  chmod 754 mans_skripts.sh
+   35  chmod 750 mans_skripts.sh
+   36  ls -l
+   37  man_skripts.sh
+   38  mans_skripts.sh 
+   39  history
+   40  history > history_21_02_2019.txt
