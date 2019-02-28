@@ -84,3 +84,8 @@ Aritmētiskie operatori:
 == veinādība  
 != nevienādība  
   
+Pieraksts:  
+if [ $val1 == $val2 ]  
+then  
+funkcijas...  
+fi  
