@@ -38,3 +38,49 @@ Sistēmas ceļu papildināšana: PATH=$PATH:(mape kuru vajag)
 Tiesības:  
 Tiesības: man   manai grupai  visai pasaulei     oktālā sistēmā  (750)  
 Tiesību mainīšana: chmod  
+  
+echo #? parāda, vai iepriekšējā darbība ir paveikta veiksmīgi (atgriež kļūdas kodu)  
+  
+echo parāda uz ekrāna, to kas tai ir dots.  
+read nolasa no termināļa un ieraksta mainīgajā
+  
+## Mainīgie  
+Teksta mainīgo pieraksta: VARDS="Teksts"  
+Parastos mainīgos pieraksta: mainigais=2  
+  
+Mainīgajam piekļūst pieliekot $ zīmi: $vards  
+Pieliekot priekšā readonly mainīgo nevarēs pārrakstīt: readonly VARDS  
+Mainīgo dzēš ar komandu unset: unset VARDS  
+  
+## Speiciālie mainīgie  
+$$ apzīmē procesa ID  
+$0 skripta faila nosaukums  
+$n naturāls skaitlis  
+$# skriptam pievadīto argumentu skaits  
+#? vai iepriekšējā darbība tika sekmīgi izpildīta (atgiež kļūdas kodu)  
+$! procesa numurs pēdējai background komandai  
+$* visi argumenti  
+$@ visi argumenti individuāli  
+$1 $2 $2 ... pozicionālie parametri  
+
+## Masīvi  
+Masīva elementus apzīmē:  
+EL[0]="vards1"  
+EL[1]="vards2"  
+  
+Piekļūšana masīvam:  
+Masīva 1. elementu var nolasīt: ${EL[0]}  
+Masīva visus elementus nolasa: ${EL[*]}  
+  
+## Operatori  
+  
+Aritmētiskie operatori:  
++ saskaitīšana  
+- atņemšana  
+* reizināšana  
+/ dalīšana  
+% dalīšanas atlikums  
+= piešķiršana  
+== veinādība  
+!= nevienādība  
+  
