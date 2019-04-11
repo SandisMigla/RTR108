@@ -157,3 +157,14 @@ darbības...
 return    atgriež noteiktu vērtību  
   
 Funkciju izsauc, uzrakstot tās nosaukumu un ieejas parametrus, ja tādi ir.  
+  
+# Python valoda  
+  
+if nosacījums:  
+    1.darbība  
+    2.darbība  
+  
+if nos.1  
+elif nos.2  
+elif nos.3  
+else  
